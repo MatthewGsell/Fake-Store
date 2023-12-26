@@ -1,7 +1,105 @@
 .landingpagemain {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 100vh;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+.titlediv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+  animation-name: titleslide;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+@keyframes titleslide {
+  0% {
+    transform: translateX(-80vw);
+  }
+  80% {
+    transform: translate(4vw);
+  }
+  100% {
+  }
+}
+
+.h1 {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 70px;
+}
+.iconhat {
+  margin-left: 20px;
+  font-size: 60px;
+  color: #d80032;
+}
+.iconshirt {
+  margin-left: 20px;
+  font-size: 60px;
+  color: #8d99ae;
+}
+.iconshoe {
+  margin-left: 20px;
+  font-size: 60px;
+  color: #2b2d42;
+}
+.button {
+  animation-name: buttonin;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  background-color: #2b2d42;
+  color: white;
+}
+@keyframes buttonin {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+  }
+}
+.h6 {
+  font-size: large;
+  animation-name: h6in;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  text-align: center;
+}
+@keyframes h6in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+  }
+}
+
+.h3 {
+  animation-name: descriptslide;
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: x-large;
+}
+@keyframes descriptslide {
+  0% {
+    transform: translateX(80vw);
+  }
+  33% {
+    transform: translateX(80vw);
+  }
+  90% {
+    transform: translate(-4vw);
+  }
+  100% {
+  }
 }

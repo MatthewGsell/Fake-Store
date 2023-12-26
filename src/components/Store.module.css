@@ -1,0 +1,62 @@
+.choices {
+  background-color: #2b2d42;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choices > div {
+  margin: 10px;
+}
+
+span {
+  color: white;
+}
+.main {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: linear-gradient(#edf2f4, #8d99ae);
+}
+
+.topbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2b2d42;
+  position: sticky;
+  min-height: 20vh;
+  top: 0;
+}
+.topbar > h1 {
+  color: #d80032;
+  font-size: 50px;
+}
+
+.choices > .shoppingbag {
+  position: absolute;
+  top: 30px;
+  rotate: 30deg;
+  right: 100px;
+  font-size: 120px;
+  color: #d80032;
+  transition: transform 0.5s ease-in-out;
+}
+
+.choices > .shoppingbag:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.choices .shoppingbag > p {
+  color: white;
+  position: absolute;
+  font-weight: bolder;
+  top: 44px;
+  right: 12px;
+  text-align: center;
+  font-size: large;
+}
+.choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
