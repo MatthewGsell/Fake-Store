@@ -32,7 +32,7 @@ span {
   font-size: 50px;
 }
 
-.choices > .shoppingbag {
+.choices > .checkout > .shoppingbag {
   position: absolute;
   top: 30px;
   rotate: 30deg;
@@ -42,7 +42,7 @@ span {
   transition: transform 0.5s ease-in-out;
 }
 
-.choices > .shoppingbag:hover {
+.choices > .checkout > .shoppingbag:hover {
   cursor: pointer;
   transform: scale(1.2);
 }
@@ -59,4 +59,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.checkout {
+  color: inherit;
 }

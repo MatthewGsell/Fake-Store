@@ -2,8 +2,10 @@ import { Link, Outlet } from "react-router-dom";
 import Storecss from "./Store.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBagShopping } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
 function Store() {
+ 
   return (
     <div className={Storecss.main}>
       <div className={Storecss.topbar}>
@@ -19,12 +21,13 @@ function Store() {
               <span>Shop Womens</span>
             </Link>
           </div>
+          <Link to="cart" className={Storecss.checkout}>
           <div className={Storecss.shoppingbag}>
             <p>
               Click Here<br></br>to<br></br>Checkout!
             </p>
-            <FontAwesomeIcon icon={faBagShopping} />
-          </div>
+           <FontAwesomeIcon icon={faBagShopping} />
+          </div></Link>
         </div>
       </div>
       <div>

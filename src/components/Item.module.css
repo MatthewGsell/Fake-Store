@@ -1,0 +1,48 @@
+.item {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    width: 15%;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+      rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  
+    padding: 10px;
+  }
+  .item > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .imagecontainer {
+    margin: 20px;
+    display: flex;
+    max-width: 300px;
+    max-height: 300px;
+  }
+  
+  .image {
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    pointer-events: none;
+  }
+  .bagbutton {
+    color: white;
+    background-color: #2b2d42;
+  }
+  .input {
+    margin: 5px;
+    width: 34px;
+    text-align: end;
+  }
+  .input[type='number']::-webkit-inner-spin-button, 
+.input[type='number']::-webkit-outer-spin-button { 
+    opacity: 1;
+    margin-left: 3px;
+}

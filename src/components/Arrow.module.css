@@ -1,0 +1,21 @@
+.arrow {
+    color: #d80032;
+    margin-top: 20px;
+    font-size: 120px;
+    animation: updown 1s ease-in-out  infinite;
+ }
+
+@keyframes updown {
+    0% {transform: translateY(-10%)}
+    50% {transform: translateY(10%)}
+    100% {transform: translateY(-10%)}
+    
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
