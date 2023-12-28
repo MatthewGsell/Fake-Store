@@ -1,3 +1,5 @@
+Fake store built with the fake-store api, React library and Vite build tool. You can select items and add them to your cart and view your cart.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
