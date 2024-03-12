@@ -17,7 +17,7 @@ function Landing() {
       <h3 className={LandingCss.h3}>
         You won't be able to guess what products we sell!
       </h3>
-      <h6 className={LandingCss.h6}>Click shop no to see our collecton</h6>
+      <h6 className={LandingCss.h6}>Click shop now to see our collecton</h6>
       <Link to="store/select">
         <button className={LandingCss.button}>Shop Now!</button>
       </Link>
